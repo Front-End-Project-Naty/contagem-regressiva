@@ -1,0 +1,18 @@
+* {
+    padding: 0;;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    background: black;
+}
+
+.imagem__banner {
+    width: 80%;
+}
+
