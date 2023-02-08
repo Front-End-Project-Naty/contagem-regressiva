@@ -14,23 +14,24 @@
 <body>
     <header>
         <img class="imagem__banner" src="./img/Banner.png">
+        <h1>Coloque uma data e comece sua contagem regressiva</h1>
     </header>    
 
     <main>
         <div>
-            <form class="container__data">
-                <label class="titulo">Data</label>
+            <form name="form_main" class="container__data">
+                <label for="date_end" class="titulo">Data</label>
                 <br>
-                <input id="data" type="date">
+                <input name='date_end' id="data" type="date" onblur="resetCountdown()">
             </form>
         </div>
 
         <div>
             <ul>
-                <li>dias</li>
-                <li>horas</li>
-                <li>minutos</li>
-                <li>segundos</li>
+                <li><span id="dias"></span> dias</li>
+                <li><span id="horas"></span> horas</li>
+                <li><span id="minutos"></span> minutos</li>
+                <li><span id="segundos"></span> segundos</li>
             </ul>
         </div>
     </main>

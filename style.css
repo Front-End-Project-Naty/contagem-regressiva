@@ -1,10 +1,13 @@
 * {
-    padding: 0;;
-    margin: 0;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;;
 }
 
 header {
+    color: white;
+    font-family: 'Itim', cursive;
+    font-size: 17px;
     text-align: center;
 }
 
@@ -18,11 +21,11 @@ body {
 
 main {
     align-items: center;
-    text-align: center;
-    font-family: 'Itim', cursive;
     display: grid;
+    font-family: 'Itim', cursive;
     grid-template-columns: 1fr 1fr;
     margin: 50px;
+    text-align: center;
 }
 
 div {
@@ -31,15 +34,15 @@ div {
 
 .titulo {
     color: white;
+    font-size: 37px;
     text-transform: uppercase;
-    font-size: 40px;
 }
 
 #data {
-    margin: 10px;
-    padding: 10px;
     border-radius: 15px;
     font-size: 25px;
+    margin: 10px;
+    padding: 10px;
 }
 
 ul {
