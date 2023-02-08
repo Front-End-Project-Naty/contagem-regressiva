@@ -17,11 +17,16 @@ body {
 }
 
 main {
+    align-items: center;
     text-align: center;
     font-family: 'Itim', cursive;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 50px;
+    margin: 50px;
+}
+
+div {
+    padding: 50px   ;
 }
 
 .titulo {
@@ -39,11 +44,13 @@ main {
 
 ul {
     color: white;
-    margin-top: 40px;
     font-size: 30px;
     list-style: none;
 }
 
+.tenor-gif-embed {
+    height: 20px;
+}
 
 
 @media screen and (max-width: 768px) {
